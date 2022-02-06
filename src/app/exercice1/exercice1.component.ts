@@ -12,5 +12,7 @@ export class Exercice1Component implements OnInit {
 
   ngOnInit() {
   }
-
+changeCompteur(ajout : boolean) : void {
+  ajout? this.compteur++ : this.compteur-- ;
+}
 }
